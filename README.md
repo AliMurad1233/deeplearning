@@ -32,7 +32,7 @@ Before applying GloVe embeddings, it is essential to perform exploratory data an
   - Understanding the distribution of word frequencies in the corpus.
   - Visualizing the relationships between words using techniques like word clouds or network graphs.
   - Exploring the statistical properties of the text data, such as sentence lengths, vocabulary size, and unique word counts.
-  - 
+
 These analyses provide valuable insights into the text data, helping us understand the patterns and characteristics of the dataset.
 
 ## Data Preprocessing
