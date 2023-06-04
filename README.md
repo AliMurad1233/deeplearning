@@ -50,7 +50,7 @@ GloVe embeddings are pre-trained on large corpora to capture word semantics and 
 
 For each specific task, appropriate models or algorithms are trained using the GloVe embeddings as input features. The model architectures can vary based on the task, ranging from simple similarity or analogy models to complex neural network architectures.
 
-The training process involves feeding the text data and corresponding labels into the models and optimizing the model parameters using suitable optimization techniques (e.g., backpropagation, gradient descent).
+The training process involves feeding the text data and corresponding labels into the models and optimizing the model parameters using suitable optimization techniques.
 
 ## Prediction
 
