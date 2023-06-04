@@ -1,6 +1,6 @@
 # GloVe: Global Vectors for Word Representation
 
-Author: [Ali Murad, Khaled Noubani]
+Ali Murad, Khaled Noubani
 
 ## Table of Contents
 
