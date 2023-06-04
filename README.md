@@ -15,13 +15,9 @@ Author: [Ali Murad, Khaled Noubani]
 
 ## Introduction
 
-GloVe (Global Vectors for Word Representation) is a word embedding technique that captures semantic relationships between words by representing them as dense vectors in a continuous vector space. These word vectors capture the meaning and context of words, enabling better understanding and analysis of text data. This project utilizes GloVe embeddings to perform various natural language processing tasks.
+Glove is an unsupervised learning algorithm for obtaining vector representations for words. These word vectors capture semantic and syntactic similarities between words, making them useful in various natural language processing (NLP) tasks such as word analogy, sentiment analysis, and text classification. This project utilizes GloVe embeddings to perform various natural language processing tasks.
 
 In this project, we aim to explore and apply GloVe embeddings to tasks such as word similarity, word analogy, and text classification. By leveraging the semantic information encoded in GloVe vectors, we can enhance the performance of NLP models and gain valuable insights from text data.
-
-# Glove: Global Vectors for Word Representation
-
-Glove is an unsupervised learning algorithm for obtaining vector representations for words. These word vectors capture semantic and syntactic similarities between words, making them useful in various natural language processing (NLP) tasks such as word analogy, sentiment analysis, and text classification.
 
 ## Data
 
