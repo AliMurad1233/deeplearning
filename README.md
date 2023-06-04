@@ -23,37 +23,6 @@ In this project, we aim to explore and apply GloVe embeddings to tasks such as w
 
 Glove is an unsupervised learning algorithm for obtaining vector representations for words. These word vectors capture semantic and syntactic similarities between words, making them useful in various natural language processing (NLP) tasks such as word analogy, sentiment analysis, and text classification.
 
-## Code Explanation
-
-The following code demonstrates the implementing od the Glove for word representation:
-
-```python
-# Importing the necessary libraries
-import numpy as np
-from glove import Glove
-from glove import Corpus
-
-# Creating a corpus
-corpus = Corpus()
-corpus.fit(data, window=10)
-
-# Training the Glove model
-glove = Glove(no_components=100, learning_rate=0.05)
-glove.fit(corpus.matrix, epochs=100, no_threads=4, verbose=True)
-glove.add_dictionary(corpus.dictionary)
-
-# Obtaining word vectors
-word_vectors = glove.word_vectors
-
-# Performing word analogy
-result = glove.most_similar("king", number=5)
-
-print("Word vectors:")
-print(word_vectors)
-
-print("Word analogy result:")
-print(result)
-```
 ## Data
 
 The project utilizes various datasets depending on the specific task being performed. These datasets can be obtained from publicly available sources or specific data collections relevant to the task at hand.
