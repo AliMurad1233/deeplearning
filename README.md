@@ -25,7 +25,7 @@ Glove is an unsupervised learning algorithm for obtaining vector representations
 
 ## Code Explanation
 
-The following code snippet demonstrates how to use Glove for word representation:
+The following code demonstrates the implementing od the Glove for word representation:
 
 ```python
 # Importing the necessary libraries
