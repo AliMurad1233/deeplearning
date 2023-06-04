@@ -56,10 +56,16 @@ The training process involves feeding the text data and corresponding labels int
 
 After training the models, they can be used for making predictions on new, unseen data. For tasks like word similarity or word analogy, the trained models can provide similarity scores or predict analogous word pairs based on the GloVe embeddings. In text classification tasks, the models can classify new text samples into predefined categories.
 
-The predictions are obtained by feeding the new data into the trained models, and the model outputs are interpreted based on the specific task requirements.
+The predictions are obtained by feeding the new data into the trained models, and the model outputs are interpreted based on the specific task requirements using this code:
 
+```python
+y_pre = model.predict(X_test)
+y_pre = np.round(y_pre).astype(int).reshape(1, -1)[0]
 
-
+sub = pd.concat([sample_sub['id'], pd.Series(y_pre, name='target')], axis=1)
+sub.to_csv('submission.csv', index=False)
+sub.head()
+```
 ## Conclusion
 
 GloVe embeddings provide a powerful approach for representing words as dense vectors, capturing semantic relationships between words. By leveraging these embeddings, we can enhance NLP models' performance and gain valuable insights from text data.
@@ -68,4 +74,5 @@ In this project, we explored the application of GloVe embeddings in various NLP 
 
 ## References
 
-[List the references/sources for GloVe embeddings and any additional resources used in the project.]
+[/kaggle/input/nlp-getting-started]
+[/kaggle/input/glove-twitter]
